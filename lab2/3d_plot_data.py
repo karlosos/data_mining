@@ -28,6 +28,6 @@ Y = coeffs[0] * X + coeffs[1] * Z + b
 
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
-ax.plot_surface(X, Y, Z, color='blue')
+ax.plot_surface(X, Z, Y, color='blue')
 ax.scatter(samples[:, 0], samples[:, 1], samples[:, 2], color=colors)
 plt.show()
