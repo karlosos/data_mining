@@ -11,7 +11,9 @@ cycler==0.10.0
 decorator==4.4.2
 defusedxml==0.6.0
 entrypoints==0.3
+graphviz==0.15
 idna==2.10
+imageio==2.9.0
 importlib-metadata==2.0.0
 ipykernel==5.3.4
 ipython==7.18.1
@@ -29,11 +31,13 @@ jupyterlab-server==1.2.0
 kiwisolver==1.2.0
 MarkupSafe==1.1.1
 matplotlib==3.3.2
+mchmm==0.4.0
 mistune==0.8.4
 nbclient==0.5.0
 nbconvert==6.0.7
 nbformat==5.0.7
 nest-asyncio==1.4.1
+networkx==2.5
 notebook==6.1.4
 numpy==1.19.2
 packaging==20.4
@@ -50,8 +54,12 @@ pyparsing==2.4.7
 pyrsistent==0.17.3
 python-dateutil==2.8.1
 pytz==2020.1
+PyWavelets==1.1.1
+pywin32==228
+pywinpty==0.5.7
 pyzmq==19.0.2
 requests==2.24.0
+scikit-image==0.17.2
 scikit-learn==0.23.2
 scipy==1.5.2
 Send2Trash==1.5.0
@@ -59,6 +67,7 @@ six==1.15.0
 terminado==0.9.1
 testpath==0.4.4
 threadpoolctl==2.1.0
+tifffile==2020.10.1
 tornado==6.0.4
 traitlets==5.0.4
 urllib3==1.25.10
